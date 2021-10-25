@@ -1,0 +1,9 @@
+<h1>Save any kind of movie</h1>
+<h2>Classic</h2>
+
+<h2>My List</h2>
+<button>Create a movie list</button>
+<br>
+<% @lists.each do |list| %>
+  <div class="card"><%= list.name %></div>
+<% end %>
